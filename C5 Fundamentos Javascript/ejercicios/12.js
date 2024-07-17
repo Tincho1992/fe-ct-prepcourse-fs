@@ -6,6 +6,13 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
+  
+  if (str1 >= str2){
+    return true
+  } else if (str1 !== str2){
+    return false
+  }
+
 }
 
 module.exports = tienenMismaLongitud;
